@@ -14,11 +14,18 @@ struct SecondContentView: View {
     // task: add a Button that when tapped sets secondViewShowing to false
     
     var body: some View {
-        if username != "" {
-            Text("Welcome, \(username)")
-        }
-        else {
-            Text("Welcome, Anonymous")
+        VStack {
+            if username != "" {
+                Text("Welcome, \(username)")
+            }
+            else {
+                Text("Welcome, Anonymous")
+            }
+            Button(action: {
+                secondViewShowing = false
+            }, label: {
+                Text("Log Out")
+            })
         }
     }
 }

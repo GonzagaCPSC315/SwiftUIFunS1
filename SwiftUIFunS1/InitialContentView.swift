@@ -19,6 +19,7 @@ struct InitialContentView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 NavigationLink("Log In", destination: SecondContentView(username: username, secondViewShowing: $secondViewShowing), isActive: $secondViewShowing)
                     .navigationBarTitle("Log In", displayMode: .inline)
+                
             })
             .padding()
         }
