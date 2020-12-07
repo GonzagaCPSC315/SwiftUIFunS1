@@ -11,6 +11,8 @@
 		45649ACF25756E4100F119D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45649ACE25756E4100F119D5 /* ContentView.swift */; };
 		45649AD125756E4400F119D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45649AD025756E4400F119D5 /* Assets.xcassets */; };
 		45649AD425756E4400F119D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45649AD325756E4400F119D5 /* Preview Assets.xcassets */; };
+		4574E2E1257EAA0F003080A9 /* InitialContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574E2E0257EAA0E003080A9 /* InitialContentView.swift */; };
+		4574E2E4257EAA20003080A9 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574E2E3257EAA20003080A9 /* SecondContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		45649AD025756E4400F119D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45649AD325756E4400F119D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45649AD525756E4400F119D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4574E2E0257EAA0E003080A9 /* InitialContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialContentView.swift; sourceTree = "<group>"; };
+		4574E2E3257EAA20003080A9 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				45649AD025756E4400F119D5 /* Assets.xcassets */,
 				45649AD525756E4400F119D5 /* Info.plist */,
 				45649AD225756E4400F119D5 /* Preview Content */,
+				4574E2E0257EAA0E003080A9 /* InitialContentView.swift */,
+				4574E2E3257EAA20003080A9 /* SecondContentView.swift */,
 			);
 			path = SwiftUIFunS1;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4574E2E4257EAA20003080A9 /* SecondContentView.swift in Sources */,
 				45649ACF25756E4100F119D5 /* ContentView.swift in Sources */,
+				4574E2E1257EAA0F003080A9 /* InitialContentView.swift in Sources */,
 				45649ACD25756E4100F119D5 /* SwiftUIFunS1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
