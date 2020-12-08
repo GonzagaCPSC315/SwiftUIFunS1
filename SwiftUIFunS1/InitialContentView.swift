@@ -23,7 +23,7 @@ struct InitialContentView: View {
             })
             .padding()
         }
-        .navigationBarColor(.systemTeal)
+        .navigationBarColor(.systemTeal) // see NavigationBarModifier.swift for implementation
     }
 }
 
