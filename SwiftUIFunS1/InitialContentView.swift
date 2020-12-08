@@ -23,6 +23,7 @@ struct InitialContentView: View {
             })
             .padding()
         }
+        .navigationBarColor(.systemTeal)
     }
 }
 
